@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Website</title>
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .character {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+        .character img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#characters">Characters</a>
+        <a href="#watch">Watch it Here</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <header>
+        <h1>Welcome to One Piece World</h1>
+        <p>Anime Adventure Awaits!</p>
+    </header>
+    <section id="about">
+        <h2>About One Piece</h2>
+        <p>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It follows the adventures of Monkey D. Luffy and his pirate crew in search of the One Piece, the greatest treasure in the world.</p>
+    </section>
+    <section id="characters">
+        <h2>Main Characters</h2>
+        <div class="character">
+            <img src="luffy.jpg" alt="Monkey D. Luffy">
+            <p>Monkey D. Luffy</p>
+        </div>
+        <div class="character">
+            <img src="zoro.jpg" alt="Roronoa Zoro">
+            <p>Roronoa Zoro</p>
+        </div>
+        <!-- Add more characters -->
+    </section>
+    <section id="watch">
+        <h2>Watch it Here</h2>
+        <p>Watch One Piece online:</p>
+        <ul>
+            <li><a href="https://www.crunchyroll.com/one-piece">Crunchyroll</a></li>
+            <li><a href="https://www.funimation.com/shows/one-piece/">Funimation</a></li>
+            <!-- Add more streaming links -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 One Piece Fan Club</p>
+    </footer>
+</body>
+</html>
